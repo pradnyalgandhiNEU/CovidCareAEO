@@ -64,8 +64,6 @@ public class ManageDeliveryManagerJPanel extends javax.swing.JPanel {
         txtUsername = new javax.swing.JTextField();
         txtName = new javax.swing.JTextField();
         lblName = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        txtStaffID = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(167, 199, 231));
@@ -127,15 +125,6 @@ public class ManageDeliveryManagerJPanel extends javax.swing.JPanel {
         lblName.setText("Name:");
         add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 480, -1, -1));
 
-        jLabel1.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel1.setText("StaffID");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 440, -1, -1));
-
-        txtStaffID.setEditable(false);
-        txtStaffID.setBackground(new java.awt.Color(214, 229, 244));
-        add(txtStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 430, 212, -1));
-
         jButton1.setBackground(new java.awt.Color(0, 0, 0));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Back");
@@ -170,7 +159,7 @@ public class ManageDeliveryManagerJPanel extends javax.swing.JPanel {
         txtName.setText(" ");
         txtUsername.setText(" ");
         txtPassword.setText(" ");
-        txtStaffID.setText(" ");
+//        txtStaffID.setText(" ");
     }//GEN-LAST:event_btnCreateActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -187,7 +176,6 @@ public class ManageDeliveryManagerJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCreate;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblManageAdmin;
     private javax.swing.JLabel lblName;
@@ -196,7 +184,6 @@ public class ManageDeliveryManagerJPanel extends javax.swing.JPanel {
     private javax.swing.JTable tblDeliveryManager;
     private javax.swing.JTextField txtName;
     private javax.swing.JTextField txtPassword;
-    private javax.swing.JTextField txtStaffID;
     private javax.swing.JTextField txtUsername;
     // End of variables declaration//GEN-END:variables
 

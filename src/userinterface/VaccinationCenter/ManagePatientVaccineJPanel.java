@@ -105,6 +105,7 @@ public class ManagePatientVaccineJPanel extends javax.swing.JPanel {
         lblBatch.setText("Staff ID:");
         add(lblBatch, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 470, -1, -1));
 
+        txtStaffID.setEditable(false);
         txtStaffID.setBackground(new java.awt.Color(214, 229, 244));
         add(txtStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 470, 200, -1));
     }// </editor-fold>//GEN-END:initComponents
