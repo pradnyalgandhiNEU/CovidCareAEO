@@ -62,8 +62,6 @@ public class ManageVaccinationCenterStaffJPanel extends javax.swing.JPanel {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         tblStaff = new javax.swing.JTable();
-        txtStaffID = new javax.swing.JTextField();
-        lblStaffID = new javax.swing.JLabel();
         txtName = new javax.swing.JTextField();
         lblName = new javax.swing.JLabel();
         btnCreate = new javax.swing.JButton();
@@ -95,16 +93,6 @@ public class ManageVaccinationCenterStaffJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblStaff);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, 988, 183));
-
-        txtStaffID.setEditable(false);
-        txtStaffID.setBackground(new java.awt.Color(214, 229, 244));
-        txtStaffID.setForeground(new java.awt.Color(0, 0, 0));
-        add(txtStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 440, 212, -1));
-
-        lblStaffID.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        lblStaffID.setForeground(new java.awt.Color(0, 0, 0));
-        lblStaffID.setText("Staff ID:");
-        add(lblStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 440, -1, -1));
 
         txtName.setBackground(new java.awt.Color(214, 229, 244));
         txtName.setForeground(new java.awt.Color(0, 0, 0));
@@ -203,11 +191,9 @@ public class ManageVaccinationCenterStaffJPanel extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblManageInventory;
     private javax.swing.JLabel lblName;
-    private javax.swing.JLabel lblStaffID;
     private javax.swing.JTable tblStaff;
     private javax.swing.JTextField txtName;
     private javax.swing.JTextField txtPassword;
-    private javax.swing.JTextField txtStaffID;
     private javax.swing.JTextField txtUserName;
     // End of variables declaration//GEN-END:variables
 

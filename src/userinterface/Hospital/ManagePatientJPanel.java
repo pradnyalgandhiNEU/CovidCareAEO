@@ -467,9 +467,7 @@ public class ManagePatientJPanel extends javax.swing.JPanel {
             
         }
         
-        if(flag){
-            JOptionPane.showMessageDialog(null, "Person not found", "Warning", JOptionPane.WARNING_MESSAGE);
-        }
+      
         
         
 

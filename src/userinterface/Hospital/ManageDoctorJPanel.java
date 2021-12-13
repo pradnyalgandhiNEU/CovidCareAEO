@@ -72,8 +72,6 @@ public class ManageDoctorJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         txtUserName = new javax.swing.JTextField();
         txtPassword = new javax.swing.JTextField();
-        txtStaffID = new javax.swing.JTextField();
-        lblStaffID = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(167, 199, 231));
@@ -139,14 +137,6 @@ public class ManageDoctorJPanel extends javax.swing.JPanel {
         txtPassword.setBackground(new java.awt.Color(214, 229, 244));
         add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 640, 212, -1));
 
-        txtStaffID.setBackground(new java.awt.Color(214, 229, 244));
-        add(txtStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 520, 212, -1));
-
-        lblStaffID.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
-        lblStaffID.setForeground(new java.awt.Color(0, 0, 0));
-        lblStaffID.setText("Doctor ID:");
-        add(lblStaffID, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 520, -1, -1));
-
         btnBack.setBackground(new java.awt.Color(0, 0, 0));
         btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
@@ -200,11 +190,9 @@ public class ManageDoctorJPanel extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblManageManufacturer;
     private javax.swing.JLabel lblName;
-    private javax.swing.JLabel lblStaffID;
     private javax.swing.JTable tblDoctor;
     private javax.swing.JTextField txtName;
     private javax.swing.JTextField txtPassword;
-    private javax.swing.JTextField txtStaffID;
     private javax.swing.JTextField txtUserName;
     // End of variables declaration//GEN-END:variables
 

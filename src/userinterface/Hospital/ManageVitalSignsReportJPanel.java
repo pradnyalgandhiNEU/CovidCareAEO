@@ -169,7 +169,7 @@ public class ManageVitalSignsReportJPanel extends javax.swing.JPanel {
         populateTable();
         }
         catch(Exception e ){
-            JOptionPane.showMessageDialog(this,e);
+            JOptionPane.showMessageDialog(this,"Invalid Input");
         }
     }//GEN-LAST:event_btnCreateActionPerformed
 
